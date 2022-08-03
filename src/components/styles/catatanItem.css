@@ -1,0 +1,25 @@
+.containerCatatan .item{
+    padding: 1rem;
+    border: 2px solid #3E417B;
+    box-shadow: 2px 3px 10px #3E417B;
+    width: 300px;
+}
+
+.containerCatatan .item .info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: .3rem;
+    margin-bottom: .5rem;
+}
+
+.containerCatatan .item .buttons{
+    width: 100%;
+    display: flex;
+}
+
+.containerCatatan .item .buttons > *{
+    border: 1px solid rgba(255,255,255,.2);
+    cursor: pointer;
+}

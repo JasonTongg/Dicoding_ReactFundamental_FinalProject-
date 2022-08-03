@@ -1,0 +1,29 @@
+:root{
+    --primary: #262859;
+    --lightPrimary: #3E417B;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3E417B;
+    padding: 1rem 2rem;
+    gap: 1rem;
+}
+
+nav h2{
+    color: white;
+    text-align: center;
+}
+
+nav .searchBar{
+    width: 300px;
+    padding: .5rem 1rem;
+    border-radius: 10px;
+    background-color: white;
+}
+
+nav .searchBar::placeholder{
+    color: #262859;
+}
