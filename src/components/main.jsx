@@ -3,11 +3,11 @@ import Form from './form'
 import './styles/main.css'
 import Note from './note'
 
-export default function main() {
+export default function Main(props) {
   return (
     <main>
-        <Form></Form>
-        <Note></Note>
+        <Form setAktif={props.setAktif} aktif={props.aktif} Aktif={props.Aktif} SetAktif={props.SetAktif}></Form>
+        <Note setAktif={props.setAktif} aktif={props.aktif} arsip={props.arsip} setArsip={props.setArsip} Aktif={props.Aktif} Arsip={props.Arsip} SetAktif={props.SetAktif} SetArsip={props.SetArsip}></Note>
     </main>
   )
 }

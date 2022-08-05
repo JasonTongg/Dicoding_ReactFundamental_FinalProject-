@@ -14,6 +14,10 @@
     margin-bottom: .5rem;
 }
 
+.item .info p{
+    overflow-wrap: break-word;
+}
+
 .containerCatatan .item .buttons{
     width: 100%;
     display: flex;

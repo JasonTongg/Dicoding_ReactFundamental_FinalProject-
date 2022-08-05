@@ -17,6 +17,7 @@ input, textarea, button{
     background-color: #3E417B;
     border: none;
     outline: none;
+    color: white;
 }
 
 input::placeholder, textarea::placeholder, button{
